@@ -1,2 +1,4 @@
-# PersonalCode
-This is my personal code for homework! Nothing avlid to notice.
+# 实验目标   
+   
+1. 掌握CSS的用法及基础语法；  
+2. 掌握WeUI等第三方CSS库的使用。
