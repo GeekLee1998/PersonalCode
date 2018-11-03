@@ -5,3 +5,13 @@
 # 实验内容   
 基于WeUI编写个人简历，方便在移动端和微信端浏览。   
    
+# 实验要求  
+1. 在实验库 html5-2018 中创建学号目录；  
+2. 将编写的网页（如：resume-weui.html）保存在自己的目录下；  
+3. 将代码提交到实验库（add, commit, push），然后发送Pull Request；   
+4. 根据自己的实验过程与结果编写实验报告（重点检查）；   
+5. 按照『教学助理』小程序要求将实验报告发送到老师的邮箱。   
+   
+# 实验步骤  
+1. 用<link href="https://cdn.bootcss.com/weui/1.1.3/style/weui.css" rel="stylesheet">引入weui样式；   
+2. 
