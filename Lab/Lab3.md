@@ -14,4 +14,9 @@
    
 # 实验步骤  
 1. 用<link href="https://cdn.bootcss.com/weui/1.1.3/style/weui.css" rel="stylesheet">引入weui样式；   
-2. 
+2. 用weui-flex布局设计表格样式；  
+3. 用weui-article设计简历详细内容；   
+4. 用weui-cell、weui-btn-area分别设计文本框和提交按钮。  
+   
+# 运行结果  
+
