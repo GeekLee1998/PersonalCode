@@ -4,6 +4,16 @@
   <meta charset="UTF-8">
   <title>个人简历</title>
   <link rel="stylesheet" href="Lab2.css">
+  <script type="text/javascript" language="JavaScript">
+    function changeColor() {
+      for (i=0;i<4;i++){
+        if(coloch.color[i].checked){
+          document.body.style.background=coloch.color[i].value;
+        }
+      }
+    }
+  </script>
+  <script type="text/javascript" src="Lab4.js"></script>
 </head>
 <body>
 <div class="main">
@@ -36,10 +46,16 @@
   </div>
 </div>
 <div class="M_board">
-  <form>
-    <textarea rows="8" cols="60"></textarea>
-    <input type="submit" value="提交"/>
+  <form action="M_board.html" method="post" id="mBoard">
+    <textarea id="leaveM" rows="8" cols="60"></textarea>
+    <button type="submit" id="sunBtn">登录</button>
   </form>
 </div>
+<form name="coloch" class="c_Change">
+  <input name="color" type="radio" value="#FFFFFF" onclick="changeColor()">白色
+  <input name="color" type="radio" value="#2828FF" onclick="changeColor()">蓝色
+  <input name="color" type="radio" value="#02F78E" onclick="changeColor()">绿色
+  <input name="color" type="radio" value="#FFFF37" onclick="changeColor()">黄色
+</form>
 </body>
 </html>
